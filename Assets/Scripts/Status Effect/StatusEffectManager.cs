@@ -150,4 +150,8 @@ public class StatusEffectManager : MonoBehaviour
         }
     }
 
+    //retrieval method for _statusEffects (can remove)
+    public List<StatusEffectInstance> getStatusEffects(){
+        return _statusEffects;
+    }
 }
